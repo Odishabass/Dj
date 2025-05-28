@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Odisha Remix - Free DJ Songs</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>🎧 Odisha Remix</h1>
+    <p>Latest DJ and EDM Remixes</p>
+  </header>
+
+  <main>
+    <section class="song-list">
+      <article class="song-card">
+        <h2>DJ Song 1</h2>
+        <audio controls>
+          <source src="songs/song1.mp3" type="audio/mp3" />
+        </audio>
+        <a href="songs/song1.mp3" download>⬇️ Download</a>
+      </article>
+
+      <article class="song-card">
+        <h2>DJ Song 2</h2>
+        <audio controls>
+          <source src="songs/song2.mp3" type="audio/mp3" />
+        </audio>
+        <a href="songs/song2.mp3" download>⬇️ Download</a>
+      </article>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Odisha Remix. All rights reserved.</p>
+  </footer>
+</body>
+</html>
